@@ -1,0 +1,35 @@
+.card__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    max-width: 350px;
+    margin: 1rem auto;
+}
+
+.card__image {
+    width: 100%;
+    height: auto;
+}
+
+.card__title {
+    font-size: 1.25rem;
+    margin: 0.5em 0;
+}
+
+.card__price {
+    color: #2a9d8f;
+    font-weight: bold;
+}
+
+.card__button {
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
